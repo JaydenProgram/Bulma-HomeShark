@@ -1,0 +1,102 @@
+.hero.is-info.is-large {
+    background-image: url(https://artimg.gympik.com/articles/wp-content/uploads/2015/09/back-training.jpg) !important;
+    background-size: cover;
+    background-position: top;
+}
+
+.hero-body.ronnie {
+    background-image: url(https://www.muscleandfitness.com/wp-content/uploads/2019/03/ronnie-coleman-squat-11090.jpg?w=1109&quality=86&strip=all) !important;
+    background-size: cover;
+    background-position: top;
+}
+
+.column.is-three.is-offset-9.is-underlined a {
+    color: black !important;
+}
+
+.button.is-link {
+    width: 100%;
+}
+
+.review-card {
+    width: 20vw;
+    text-align: center;
+}
+
+.card.slide {
+    position: absolute;
+    opacity: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.card.slide:nth-child(1) {
+    animation: showOne 10s ease-in-out infinite;
+}
+
+.card.slide:nth-child(2) {
+    animation: showTwo 10s ease-in-out infinite;
+}
+
+.card.slide:nth-child(3) {
+    animation: showThree 10s ease-in-out infinite;
+}
+
+@keyframes showOne {
+    0% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes showTwo {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    66% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes showThree {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    66% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
